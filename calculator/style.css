@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(105deg, #a7f805, #05b9c9);
+    color: #deff73;
+    padding: 5px;
+    border: 2px solid rgb(10, 212, 10);
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+.calculator{
+    width: 100%;
+    max-width:80%;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+.calculator h1{
+    font-size: 2rem;
+    color: rgb(7, 1, 53);
+    padding-left: 40%;
+}
+.calculator h1 span{
+    color: rgb(255, 255, 255);
+}
+.input-box{
+    margin: 40px 0;
+    padding: 30px;
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+    background: rgba(177, 247, 136, 0.3);
+    display: flex;
+    align-items: center;
+}
+.input-box input{
+    flex: 1;
+    margin-right: 20px;
+    padding: 15px 20px;
+    border: 0;
+    outline: 0;
+    font-size: 18px;
+    font-weight: 800;
+    border-radius: 5px;
+    position: relative;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.input-box button{
+    flex: 0;
+    margin-right: 2px;
+    padding: 15px 30px;
+    background: rgb(4, 202, 4);
+    color: #deff73;
+    border: 0;
+    outline: 0;
+    font-size: 18px;
+    font-weight: 800;
+    border-radius: 10px;
+    position: relative;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.input-box input::-webkit-calendar-picker-indicator{
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: auto;
+    height: auto;
+    position: absolute;
+    background-position: calc(90%);
+    background-size: 30px;
+    cursor: pointer;
+    }
+.calculator p{
+    font-size: 2rem;
+    font-weight: 800;
+    color: #000000;
+    border: 2px solid rgb(6, 255, 6);
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+    padding: 20px;
+    background: rgb(4, 202, 4,0.3);
+
+}
+.calculator span{
+    color: rgb(253, 253, 255);
+}
